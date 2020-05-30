@@ -1,0 +1,11 @@
+var age = prompt("Введите свой возраст");
+if (age >= 0 && age < 12) {
+alert("ребёнок");}
+else if (age >= 12 && age < 18) {
+alert("подросток");}
+else if (age >= 18 && age < 60 && age != 27) {
+alert("взрослый");}
+else if (age == 27){
+alert("Ринат, ты старый!");}
+else {
+alert("пенсионер");} 

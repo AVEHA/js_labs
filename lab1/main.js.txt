@@ -1,0 +1,3 @@
+var welcome = "Привет,";
+var name = prompt("Введите имя");
+alert(welcome + "" + name)

@@ -1,0 +1,6 @@
+let str = prompt("Введите диапазон чисел. В качестве разделителя используйте пробел");
+let arr = str.split(" ");
+number sum = 0;
+for (i = +arr[0]; i <= 10; i++) {
+sum += i; }
+alert(sum) 
